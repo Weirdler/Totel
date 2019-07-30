@@ -2,7 +2,17 @@
 <html>
 <head>
     <!-- Location of Vacation -->
-
+    <header>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active text-dark text-decoration-none" href="/user/signup"><strong>Sign Up</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark text-decoration-none" href="/user/login"><strong>Login</strong></a>
+            </li>
+        </ul>
+    </header>
+    
     <title>Totel | <%= destination.city %>, <%= destination.country %></title>
 
     <h2 text-align: center>Your Recommended Vacation</h2>
@@ -10,6 +20,8 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
+        
+        
     <h1 id="HomeLogo">Totel</h1>
 
     <img id="DestinationImage" src="<%=destination.image%>" alt="<%=destination.country%>">
@@ -18,7 +30,7 @@
 
     <div class="btns-group dropright">
         <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            View Hotel Deals with Trivago
+            View Hotel Deals in <%= destination.city %> with Trivago
         </button>
         <div class="dropdown-menu">
             <!-- Trivago Link-->
@@ -99,13 +111,21 @@ document.getElementById('search').onclick = function() {
 </script>
  <br>
  <br>
- <br>&copy; Totel
+ <button class="btn btn-secondary" type="button" ><a text-decoration-none>Add Favorite</a></button>
+ <br>
+ <br>
+ <button class="btn btn-secondary" type="button" id="search1"><a text-decoration-none href="/">Return Home</a></button>
+<br>
+<br>
+ <br>
+ &copy; Totel
 
 <script>
     var destImage = document.getElementsByClassName('parallax')[0]
     destImage.style.backgroundImage = 'url("<%= destination.image %>")'
     console.log(destImage);
 </script>
+
 
     <div class="margin"></div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
