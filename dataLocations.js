@@ -1,6 +1,4 @@
-const db = require('./models');
-
-db.Locations.create({
+req.context.db.Locations.create({
     country: "US",
     city: "Miami",
     climate: "Tropical",
@@ -18,7 +16,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1516192%3AUNKNOWN%3AUNKNOWN&destination-id=1516192&q-destination=Miami,%20Florida,%20United%20States%20of%20America&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Cuba",
     city: "Havana",
     climate: "Tropical",
@@ -36,7 +34,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1911770%3AUNKNOWN%3AUNKNOWN&destination-id=1911770&q-destination=Havana,%20Cuba&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Brazil",
     city: "Rio De Janeiro",
     climate: "Tropical",
@@ -54,7 +52,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A146100%3AUNKNOWN%3AUNKNOWN&destination-id=146100&q-destination=Rio%20de%20Janeiro,%20Brazil&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Saint Marten",
     city: "Philipsburg",
     climate: "Tropical",
@@ -72,7 +70,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A11464%3AUNKNOWN%3AUNKNOWN&f-distance=5.0&f-lid=1657232&destination-id=11464&q-destination=Philipsburg,%20Sint%20Maarten&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Mexico",
     city: "Playa Del Carmen",
     climate: "Tropical",
@@ -90,7 +88,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A862967%3AUNKNOWN%3AUNKNOWN&destination-id=862967&q-destination=Playa%20del%20Carmen,%20Quintana%20Roo,%20Mexico&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Colombia",
     city: "Cartagena",
     climate: "Tropical",
@@ -108,7 +106,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A295594%3AUNKNOWN%3AUNKNOWN&destination-id=295594&q-destination=Cartagena,%20Colombia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Spain",
     city: "Madrid",
     climate: "Moderate",
@@ -126,7 +124,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A457987%3AUNKNOWN%3AUNKNOWN&destination-id=457987&q-destination=Madrid,%20Spain&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Italy",
     city: "Rome",
     climate: "Moderate",
@@ -144,7 +142,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A712491%3AUNKNOWN%3AUNKNOWN&destination-id=712491&q-destination=Rome,%20Italy&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Greece",
     city: "Athens",
     climate: "Moderate",
@@ -162,7 +160,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A593632%3AUNKNOWN%3AUNKNOWN&destination-id=593632&q-destination=Athens,%20Greece&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Italy",
     city: "Venice",
     climate: "Moderate",
@@ -180,7 +178,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A710846%3AUNKNOWN%3AUNKNOWN&destination-id=710846&q-destination=Venice,%20Italy&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Croatia",
     city: "Plitvice",
     climate: "Moderate",
@@ -198,7 +196,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1693342%3AUNKNOWN%3AUNKNOWN&destination-id=1693342&q-destination=Plitvicka%20jezera,%20Croatia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Greece",
     city: "Sparta",
     climate: "Moderate",
@@ -216,7 +214,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A588770%3AUNKNOWN%3AUNKNOWN&destination-id=588770&q-destination=Sparta,%20Greece&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "France",
     city: "Paris",
     climate: "Continental",
@@ -234,7 +232,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A504261%3AUNKNOWN%3AUNKNOWN&destination-id=504261&q-destination=Paris,%20France&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "US",
     city: "New York",
     climate: "Continental",
@@ -252,7 +250,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1506246%3AUNKNOWN%3AUNKNOWN&destination-id=1506246&q-destination=New%20York,%20New%20York,%20United%20States%20Of%20America&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "England",
     city: "London",
     climate: "Continental",
@@ -270,7 +268,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A549499%3AUNKNOWN%3AUNKNOWN&destination-id=549499&q-destination=London,%20England,%20United%20Kingdom&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "US",
     city: "Anchorage",
     climate: "Continental",
@@ -288,7 +286,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1490614%3AUNKNOWN%3AUNKNOWN&destination-id=1490614&q-destination=Anchorage,%20Alaska,%20United%20States%20of%20America&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Canada",
     city: "Quebec",
     climate: "Continental",
@@ -306,7 +304,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A169995%3AUNKNOWN%3AUNKNOWN&destination-id=169995&q-destination=Quebec,%20Quebec,%20Canada&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "US",
     city: "Helena",
     climate: "Continental",
@@ -324,7 +322,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1522564%3AUNKNOWN%3AUNKNOWN&destination-id=1522564&q-destination=Helena,%20Montana,%20United%20States%20of%20America&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Egypt",
     city: "Cairo",
     climate: "Tropical",
@@ -345,7 +343,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1634358%3AUNKNOWN%3AUNKNOWN&destination-id=1634358&q-destination=Cairo,%20Egypt&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Australia",
     city: "Sydney",
     climate: "Tropical",
@@ -363,7 +361,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A26633%3AUNKNOWN%3AUNKNOWN&destination-id=26633&q-destination=Sydney,%20New%20South%20Wales,%20Australia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Indonesia",
     city: "Jakarta",
     climate: "Tropical",
@@ -381,7 +379,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A659455%3AUNKNOWN%3AUNKNOWN&destination-id=659455&q-destination=Jakarta,%20Indonesia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Fiji",
     city: "Suva",
     climate: "Tropical",
@@ -399,7 +397,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=COUNTRY%3A10233053%3AUNKNOWN%3AUNKNOWN&destination-id=10233053&q-destination=Fiji&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Chile",
     city: "Hanga Roa",
     climate: "Tropical",
@@ -417,7 +415,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=REGION%3A1641798%3AUNKNOWN%3AUNKNOWN&destination-id=1641798&q-destination=Easter%20Island,%20Chile&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Vietnam",
     city: "Ha Long",
     climate: "Tropical",
@@ -435,7 +433,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=REGION%3A1640036%3AUNKNOWN%3AUNKNOWN&destination-id=1640036&q-destination=Halong%20Bay,%20Vietnam&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "UAE",
     city: "Dubai",
     climate: "Moderate",
@@ -453,7 +451,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A11594%3AUNKNOWN%3AUNKNOWN&destination-id=11594&q-destination=Dubai,%20United%20Arab%20Emirates&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Turkey",
     city: "Istanbul",
     climate: "Moderate",
@@ -471,7 +469,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1341107%3AUNKNOWN%3AUNKNOWN&destination-id=1341107&q-destination=Istanbul,%20Turkey&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "India",
     city: "New Delhi",
     climate: "Moderate",
@@ -489,7 +487,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A675357%3AUNKNOWN%3AUNKNOWN&destination-id=675357&q-destination=New%20Delhi,%20India&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "South Africa",
     city: "Upington",
     climate: "Moderate",
@@ -507,7 +505,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=COUNTRY%3A10233158%3AUNKNOWN%3AUNKNOWN&destination-id=10233158&q-destination=South%20Africa&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Morocco",
     city: "Midelt",
     climate: "Moderate",
@@ -525,7 +523,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=COUNTRY%3A10233117%3AUNKNOWN%3AUNKNOWN&destination-id=10233117&q-destination=Morocco&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Japan",
     city: "Nara",
     climate: "Moderate",
@@ -543,7 +541,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A728341%3AUNKNOWN%3AUNKNOWN&destination-id=728341&q-destination=Nara,%20Japan&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Japan",
     city: "Tokyo",
     climate: "Continental",
@@ -561,7 +559,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A726784%3AUNKNOWN%3AUNKNOWN&destination-id=726784&q-destination=Tokyo,%20Japan&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Russia",
     city: "Moscow",
     climate: "Continental",
@@ -579,7 +577,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1153093%3AUNKNOWN%3AUNKNOWN&destination-id=1153093&q-destination=Moscow,%20Russia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "South Korea",
     city: "Seoul",
     climate: "Continental",
@@ -597,7 +595,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A210777%3AUNKNOWN%3AUNKNOWN&f-distance=25.0&f-lid=10601202&destination-id=210777&q-destination=Dandong,%20China&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Ukraine",
     city: "Chernobyl",
     climate: "Continental",
@@ -615,7 +613,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1378654%3AUNKNOWN%3AUNKNOWN&destination-id=1378654&q-destination=Kiev,%20Ukraine&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Moldova",
     city: "Crasnoe",
     climate: "Continental",
@@ -633,7 +631,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=GEO_LOCATION%3ACrasnoe,%20Moldova%7C46.6432639%7C29.8286866%3AGEOCODE%3AUNKNOWN&q-destination=Crasnoe,%20Moldova&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK"
 });
 
-db.Locations.create({
+req.context.db.Locations.create({
     country: "Russia",
     city: "Tyumen",
     climate: "Continental",
