@@ -1,3 +1,5 @@
+const db = require('./models')
+
 db.Locations.create({
     country: "US",
     city: "Miami",
@@ -595,7 +597,7 @@ db.Locations.create({
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A210777%3AUNKNOWN%3AUNKNOWN&f-distance=25.0&f-lid=10601202&destination-id=210777&q-destination=Dandong,%20China&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK"
 });
 
-dbreate({
+db.Locations.create({
     country: "Ukraine",
     city: "Chernobyl",
     climate: "Continental",
