@@ -86,9 +86,9 @@
 <div>
         <h4>Restaraunts</h4>
         <!-- Restaraunts in Area -->
-        <button id="search1" type="button" class="btn btn-secondary"> Local Restaraunts and Food in <%= destination.city %></button>
+        <button id="search1" type="button" class="btn btn-secondary"> Local Restaurants and Food in <%= destination.city %></button>
         <script>
-        var H = "Restaraunts in ";
+        var H = "Restauraunts in ";
         var localFood = '<%= destination.city%>'
         document.getElementById('search1').onclick = function() {
             window.open('http://google.com/search?q='+H+localFood);
@@ -103,7 +103,7 @@
 
     <button id="search" type="button" class="btn btn-secondary">Click for Currency Exchange</button>
 <script>
-var q = "exhange rate USD to ";
+var q = "exchange rate USD to ";
 var localCurrency ='<%= destination.currency%>'
 document.getElementById('search').onclick = function() {
     window.open('http://google.com/search?q='+q+localCurrency);
